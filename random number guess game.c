@@ -27,10 +27,10 @@ int main(){
         if(attempt == 1){
            printf("Hacker🤯😡!!\n"); 
         }
-        if(attempt >= 15){
+        else if(attempt >= 15){
             printf("You got pretty tuff.\nPoor player!!\n");
         }
-        if(attempt <= 15){
+        else if(attempt <= 15){
             printf("You got easy one to predect.\n");
         }
     }
